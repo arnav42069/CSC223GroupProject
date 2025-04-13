@@ -1,6 +1,9 @@
 # CSC223GroupProject
 Programming Project that handles classes with Admins, Students and Instructors
-Overview
+
+
+**Overview**
+
 You’ve been asked by a community college to help them develop a prototype of a class
 registration system that would allow them to schedule classes online. This system would handle
 many tasks. It would allow students to be registered into the system. Once a student is
@@ -20,7 +23,10 @@ which would cause the students to be removed from the course along with the facu
 This prototype should try to accomplish as many of these requirements as possible, but since it is
 a prototype not everything has to be implemented. To limit the scope of this prototype, the
 implementation only has to schedule computer science classes.
-Administrator Role
+
+
+**Administrator Role**
+
 The system should allow any administrator to login to the system using a common username and
 password. Once the administrator has logged in, they have options reserved for them. They can
 add or cancel a class. They can assign a faculty member to teach a specific class. They can also
@@ -30,7 +36,7 @@ drops unexpectedly, but they should do using a seniority system by removing the 
 added professors. A class should have a three letter abbreviation (ex. CSC) , three digit number
 (223), a section number, and specific time. A faculty member cannot be assigned to teach a
 class that conflicts with another class that they are teaching.
-Students’ role
+**Students’ role**
 Students can apply to the college. Once a student applies, they are automatically entered into the
 system unless that student is already in the system. The system should check if the student with
 same name and same birthdate are already in the system. If they are already in the system,
@@ -40,7 +46,9 @@ to select a username and password.
 Once a student has logged in, they will have the option to add or drop courses. They can also
 view the courses they are currently enrolled in. A student can’t enroll in the same course twice or
 enroll in two different sections of the same course.
-Faculty’s role
+
+**Faculty’s role**
+
 A faculty member can also log in to the system. They should be able to see which classes they
 are assigned to teach for the current semester. They should be able to view all the students in the
 classes they are assigned to as well as any students on the waiting list for any course they are
@@ -59,7 +67,11 @@ the system. Students are encouraged to reuse any files developed in class or as 
 assignments. Reusing these files will reduce the amount of work that is required for this project.
 It is important to note that some of these files may require modification to work correctly in the
 context of this system. You may not use any ADTs that are part of the Java Library.
-Grading
+
+
+
+**Grading**
+
 You do not need to implement every specific requirement of this system to receive full points for
 this project. The project grading will be based on whether group was able to put together a
 reasonable implementation of the requirements of the project. The professor will be the judge of
