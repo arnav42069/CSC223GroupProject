@@ -1,19 +1,10 @@
 public class User {
     private String type;
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
     private String name;
-    private int ID;
+    private String username;
     private String password;
 
-    public User(String name, int ID, String password) {
+    public User(String name, String username, String password) {
         this.name = name;
         this.ID = ID;
         this.password = password;
@@ -43,8 +34,8 @@ public class User {
         return ID;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -55,8 +46,16 @@ public class User {
         this.password = password;
     }
 
-    public void setLogin(String password, int ID){
+    public void setLogin(String password, String username){
         this.password = password;
-        this.ID = ID;
+        this.username = username;
+    }
+
+     public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }
