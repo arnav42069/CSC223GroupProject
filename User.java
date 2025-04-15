@@ -51,7 +51,7 @@ public class User {
         this.username = username;
     }
 
-     public String getType() {
+    public String getType() {
         return type;
     }
 
